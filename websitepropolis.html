@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Herbal Alami - Kesehatan dari Alam</title>
+<style>
+  /* Reset */
+  * {
+    margin: 0; padding: 0; box-sizing: border-box;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: #f9fdf7;
+    color: #2d3a20;
+    line-height: 1.6;
+  }
+  header {
+    background: #ca2d18;
+    padding: 20px 40px;
+    color: #e7f0d6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  header h1 {
+    font-weight: 700;
+    font-size: 1.8rem;
+  }
+  nav {
+    margin-top: 8px;
+  }
+  nav a {
+    color: #e7f0d6;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    font-size: 1rem;
+  }
+  nav a:hover {
+    color: #f5f5f5;
+  }
+  .hero {
+    background: url('britishpropolis.png') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f6f8f3;
+    text-shadow: 1px 1px 8px #1e2a14;
+    text-align: center;
+    padding: 0 20px;
+  }
+  .hero h2 {
+    font-size: 2.8rem;
+    max-width: 700px;
+    font-weight: 700;
+  }
+  main {
+    max-width: 1100px;
+    margin: 40px auto 60px auto;
+    padding: 0 20px;
+  }
+  .section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+  }
+  .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap: 30px;
+  }
+  .product-card {
+    background: #dff0d8cc;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgb(74 106 50 / 15%);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 20px rgb(74 106 50 / 30%);
+  }
+  .product-card h3 {
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+    color: #000000;
+  }
+  .product-card p {
+    font-size: 1rem;
+    color: #000000;
+  }
+  footer {
+    background: #ca2d18;
+    color: #d2deb4;
+    text-align: center;
+    padding: 20px 15px;
+    font-size: 0.9rem;
+    letter-spacing: 0.04em;
+  }
+  @media (max-width: 600px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      margin-left: 0;
+      margin-right: 20px;
+      font-size: 1.1rem;
+    }
+  }
+  button.cta {
+    background: #a9c47f;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 25px;
+    color: #f6f8f3;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 1rem;
+    box-shadow: 0 4px 15px rgb(169 196 127 / 50%);
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 20px;
+  }
+  button.cta:hover {
+    background: #bd6721;
+    box-shadow: 0 6px 20px rgba(179, 118, 39, 0.7);
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Agen British Propolis Tasikmalaya</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#products">Produk</a>
+      <a href="#about">Tentang</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>Solusi Kesehatan Tanpa Efek Samping</h2>
+  </section>
+
+  <main>
+    <section id="products">
+      <h2 class="section-title">Produk Unggulan</h2>
+      <div class="products">
+        <article class="product-card">
+          <h3>British Propolis</h3>
+          <p>Propolis alami sebagai solusi untuk kesehatan tubuh.</p>
+          <button class="cta" onclick="alert('Terima kasih atas minat Anda pada British Propolis!')">Beli Sekarang</button>
+        </article>
+        <article class="product-card">
+          <h3>British Propolis Kids</h3>
+          <p>Propolis alami juga tersedia untuk kesehatan tubuh anak.</p>
+          <button class="cta" onclick="alert('Terima kasih atas minat Anda pada British Propolis Kids!')">Beli Sekarang</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" style="margin-top: 80px;">
+      <h2 class="section-title">Tentang Kami</h2>
+      <p style="max-width: 800px; margin: 0 auto; font-size: 1.1rem; color: #3b512e;">
+        Agen British Propolis Tasikmalaya adalah agen resmi yang berdedikasi menghadirkan solusi kesehatan alami dan berkualitas untuk masyarakat Indonesia. Kami berkomitmen untuk menyediakan British Propolis asli yang telah dipercaya banyak orang dalam meningkatkan daya tahan tubuh,mempercepat pemulihan, serta menjaga kesehatan secara menyeluruh.
+      </p>
+    </section>
+
+    <section id="contact" style="margin-top: 80px; text-align: center;">
+      <h2 class="section-title">Kontak Kami</h2>
+      <p>Untuk konsultasi dan pemesanan, hubungi kami di: 089657450103</p>
+      <p><strong>Email:</strong> yasirtashirul95@gmail.com</p>
+      <p><strong>Telepon:</strong> +62 896 5745 0103</p>
+      <p>Ikuti kami di sosial media:</p>
+      <p>
+        <a href="https://instagram.com/variapilihan" target="_blank" style="color:#4a6a32; font-weight:700; text-decoration:none; margin: 0 10px;">Instagram</a> |
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Agen British Propolis Tasikmalaya. Semua hak cipta dilindungi.
+  </footer>
+</body>
+</html>
+
